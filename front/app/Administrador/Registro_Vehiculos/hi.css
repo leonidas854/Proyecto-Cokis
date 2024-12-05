@@ -1,0 +1,103 @@
+/* Contenedor principal */
+.form-container {
+  padding: 50px;
+  max-width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(211, 203, 184, 0.7);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.form-header {
+  font-family: 'Klarissa', sans-serif;
+  text-align: center;
+  color: #333;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor de los campos del formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Estilo para los grupos de formulario */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Etiquetas */
+.form-label {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Inputs */
+.form-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Botón de enviar */
+.form-button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(to right, #ED213A, #93291E);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background: linear-gradient(to right, #ED213A, #93291E);
+}
+
+/* Mensajes */
+.form-message {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-message-success {
+  color: green;
+}
+
+.form-message-error {
+  color: red;
+}
+
+body {
+  background-image: url('/image/camionf.png');
+  background-color: rgba(0, 0, 0, 0.5); /* Capa semi-transparente oscura */
+  z-index: 1; /* Asegura que la capa esté encima de la imagen */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'Klarissa'; /* Nombre de la fuente (puedes elegir el que prefieras) */
+  src: url('./Klarissa.ttf') format('truetype'); /* Ruta relativa desde el CSS */
+  font-weight: normal; /* Opcional: puedes definir bold, light, etc. */
+  font-style: normal;  /* Opcional: define normal, italic, etc. */
+}

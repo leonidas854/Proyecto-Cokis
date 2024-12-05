@@ -1,0 +1,142 @@
+/* General */
+/* Fondo exclusivo para la página de Login */
+.login-page {
+    background: url('/image/fondo1 .jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la ventana */
+    width: 100%; /* Asegura que el fondo cubra todo el ancho */
+  }
+
+  body {
+    background-image: url('/image/img1.png');
+    background-color: rgba(0, 0, 0, 0.5); /* Capa semi-transparente oscura */
+    z-index: 1; /* Asegura que la capa esté encima de la imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Contenedor principal */
+  .login-container {
+    padding: 50px;
+  max-width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ece4e4b3;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-header {
+    font-family: 'Klarissa', sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  
+  /* Caja del formulario */
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Resto de los estilos (sin cambios) */
+  
+  
+  /* Icono superior */
+  .login-icon {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Títulos */
+  .login-box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .login-box p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* Etiquetas */
+  .login-box label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Botones */
+  .form-button,
+  .help-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .form-button {
+    background: linear-gradient(to right, #333333, #dd1818);
+    color: white;
+  }
+  
+  .form-button:hover {
+    background: linear-gradient(to right, #333333, #dd1818);
+  }
+  
+  .help-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .help-button:hover {
+    background-color: #e53935;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+@font-face {
+  font-family: 'Klarissa'; /* Nombre de la fuente (puedes elegir el que prefieras) */
+  src: url('./Klarissa.ttf') format('truetype'); /* Ruta relativa desde el CSS */
+  font-weight: normal; /* Opcional: puedes definir bold, light, etc. */
+  font-style: normal;  /* Opcional: define normal, italic, etc. */
+}
+  
+
+  

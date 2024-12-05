@@ -1,0 +1,127 @@
+/* Navbar */
+nav {
+  position: fixed; /* Fija el elemento en la pantalla */
+top: 0; /* Asegura que esté en la parte superior */
+left: 0;
+width: 100%; /* Se extiende a todo el ancho */
+z-index: 1000; /* Asegura que esté sobre otros elementos */
+background-color: rgba(0, 0, 0, 0.5); /* Fondo opcional */
+padding: 10px 20px; /* Espaciado interno */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para el efecto */
+}
+
+
+.enlace {
+  position: relative;
+}
+
+.logo {
+  height: 60px;
+  text-align: center;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li a.active,
+li a:hover {
+  background: #f5331e;
+  transition: 0.5s;
+}
+
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+.titulo{
+  font-family: 'Bebas', sans-serif;
+  position: relative;
+  top: 50%; /* Posición vertical centrada */
+  left: 50%; /* Posición horizontal centrada */
+  transform: translate(-23%, 85%); /* Centra el texto perfectamente */
+  color: red; /* Color del texto */
+  font-size: 3rem; /* Tamaño del título */
+  text-align: left; /* Centra el texto */
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para que sea más legible */
+}
+
+
+/* Contenedor y Carrusel */
+.content-all {
+  margin: auto;
+  perspective: 600px;
+  margin-top: 50px;
+}
+
+.content-carrousel {
+  width: 100%;
+  position: absolute;
+  animation: rotar 10s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+  animation-play-state: paused;
+  cursor: row-resize;
+}
+
+.content-carrousel figure {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  transition: transform 300ms;
+}
+
+.content-carrousel figure img {
+  width: 100%;
+  transition: transform 300ms;
+}
+
+.content-carrousel img:hover {
+  transform: scale(1.2);
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'Bebas'; /* Nombre de la fuente (puedes elegir el que prefieras) */
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype'); /* Ruta relativa desde el CSS */
+  font-weight: normal; /* Opcional: puedes definir bold, light, etc. */
+  font-style: normal;  /* Opcional: define normal, italic, etc. */
+}
