@@ -1,8 +1,12 @@
 # Proyecto-Cokis
-Team miopes
-##Por el tamaño máximo de 64mb, optamos por subir a un repositorio de git hub, para que ustedes ing. puedan descargarlo.
+**Team Miopes**
 
-###Nataly Nicole Crespo Arriaran /n
-Joaquin Rodrigo Ocampo Valdivia/n
-Sharaid Gabriela Cruz Serrano/n
-Thiago Leonaro Sossa Chugar/n
+Debido al tamaño máximo permitido de 64MB, hemos optado por subir el proyecto a un repositorio de GitHub, de manera que ustedes, Ing., puedan descargarlo fácilmente.
+
+---
+
+## Integrantes del equipo
+- **Nataly Nicole Crespo Arriaran**  
+- **Joaquín Rodrigo Ocampo Valdivia**  
+- **Sharaid Gabriela Cruz Serrano**  
+- **Thiago Leonardo Sossa Chugar**  
